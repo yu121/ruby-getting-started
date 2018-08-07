@@ -14,7 +14,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
+gem 'bootstrap-sass', '3.3.7'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -37,4 +37,10 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+group :test do
+  gem 'rails-controller-testing', '1.0.2'
+  gem 'minitest',                 '5.10.3'
+  gem 'minitest-reporters',       '1.1.14'
+  gem 'guard',                    '2.14.1'
+  gem 'guard-minitest',           '2.4.6'
+end
