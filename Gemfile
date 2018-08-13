@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.6'
+gem 'bcrypt',    '3.1.11'
 gem 'cowsay'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -31,7 +32,7 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
-
+gem 'rb-readline'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
