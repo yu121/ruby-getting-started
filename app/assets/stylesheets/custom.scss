@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 @mixin box_sizing {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -18,9 +19,10 @@
 /* universal */
 
 body {
-  color: darkorange;
+  color: aqua;
   background-color: #2E2F30;
   padding-top: 60px;
+
 }
 
 section {
@@ -32,12 +34,14 @@ textarea {
 }
 
 .center {
+
   text-align: center;
   background-color: #2E2F30;
 }
 
 .center h1 {
   margin-bottom: 10px;
+
 }/* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
     text-align: center;
     background-color: #2E2F30;
+
   }
 
   
@@ -59,8 +64,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
     text-align: center;
     font-weight: normal;
-    color: #2E2F30;
+    color: cyan;
     background-color: #2E2F30;
+
   }
   
   p {
@@ -94,7 +100,7 @@ footer {
   }
   
   footer a {
-    color: #555;
+    color: aqua;
   }
   
   footer a:hover {
@@ -174,7 +180,7 @@ input {
 .field_with_errors {
   @extend .has-error;
   .form-control{
-    color: $state-danger-text;
+    color: #eaeaea;
   }
 }
 .checkbox {
