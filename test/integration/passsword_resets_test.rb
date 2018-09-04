@@ -1,10 +1,7 @@
 require 'test_helper'
 
 class PassswordResetsTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
-  #
+
    def setup
      ActionMailer::Base.deliveries.clear
      @user = users(:michael)

@@ -17,3 +17,6 @@
 
 # Ignore ruby-version
 /.ruby-version
+
+#アップロードされたテスト画像絵を無視する
+/public/uploads

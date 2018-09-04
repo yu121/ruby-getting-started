@@ -6,6 +6,7 @@ gem 'cowsay'
 gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+gem 'fog' , group: :production
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -40,6 +41,9 @@ gem 'rb-readline'
 gem 'byebug'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'carrierwave'
+gem 'mini_magick'
+
 group :test do
   gem 'rails-controller-testing', '1.0.2'
   gem 'minitest',                 '5.10.3'
