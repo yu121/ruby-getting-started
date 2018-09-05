@@ -7,6 +7,7 @@ gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 gem 'fog' , group: :production
+gem 'fog-aws'
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails'
