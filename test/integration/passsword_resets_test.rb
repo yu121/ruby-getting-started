@@ -42,7 +42,7 @@ class PassswordResetsTest < ActionDispatch::IntegrationTest
     patch password_reset_path(user.reset_token),
           params: { email: user.email,
           user: { password: "foobaz",
-          passeord_confirmation: "barquux"}}
+          password_confirmation: "barquux"}}
     assert_select 'div#error_explanation'
     #パスワードが空
     patch password_reset_path(user.reset_token),
